@@ -1,0 +1,48 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="UQ7zo1qBtSOoQg2v7PeZ">
+    <mxGraphModel dx="1900" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Duhk9gLc_TfQz-zLNea3-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Empleado" vertex="1">
+          <mxGeometry height="530" width="390" x="360" y="170" as="geometry">
+            <mxRectangle height="30" width="100" x="330" y="250" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Duhk9gLc_TfQz-zLNea3-2" parent="Duhk9gLc_TfQz-zLNea3-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="# id:string&lt;div&gt;# nombre:string&lt;/div&gt;&lt;div&gt;# cedula:int&lt;/div&gt;&lt;div&gt;# salarioBase:double&lt;/div&gt;&lt;div&gt;# horasExtra:float&lt;/div&gt;&lt;div&gt;# cantGuardias:int&lt;/div&gt;&lt;div&gt;# horasNocturnas:float&lt;/div&gt;" vertex="1">
+          <mxGeometry height="114" width="390" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Duhk9gLc_TfQz-zLNea3-3" parent="Duhk9gLc_TfQz-zLNea3-1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;labelPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="8" width="390" y="144" as="geometry" />
+        </mxCell>
+        <mxCell id="Duhk9gLc_TfQz-zLNea3-4" parent="Duhk9gLc_TfQz-zLNea3-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;+ Empleado()&lt;/div&gt;&lt;div&gt;+ Empleado(string id, string nombre, int cedula, double salarioBase, float horasExtra, int cantGuardias, float horasNocturnas)&lt;/div&gt;&lt;div&gt;+ virtual ~Empleado&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ void setId(string id)&lt;/div&gt;&lt;div&gt;+ void setNombre(string nombre)&lt;/div&gt;&lt;div&gt;+ void setCedula(int cedula)&lt;/div&gt;&lt;div&gt;+ void setSalarioBase(double salarioBase)&lt;/div&gt;&lt;div&gt;+ void setHorasExtra(float horasExtra)&lt;/div&gt;&lt;div&gt;+ void setCantGuardias(int cantGuardias)&lt;/div&gt;&lt;div&gt;+ void setHorasNocturnas(float horasNocturnas)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ string getId()&lt;/div&gt;&lt;div&gt;+ string getNombre()&lt;/div&gt;&lt;div&gt;+ int getCedula()&lt;/div&gt;&lt;div&gt;+ double getSalarioBase()&lt;/div&gt;&lt;div&gt;+ float getHorasExtra()&lt;/div&gt;&lt;div&gt;+ int getCantGuardias()&lt;/div&gt;&lt;div&gt;+ float getHorasNocturnas&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;+ double calcularSalarioBruto()=0&lt;div&gt;+ double calcularDeducciones()=0&lt;/div&gt;&lt;div&gt;+ double calcularSalarioNeto()&lt;/div&gt;&lt;div&gt;+ virtual string toString&lt;/div&gt;" vertex="1">
+          <mxGeometry height="378" width="390" y="152" as="geometry" />
+        </mxCell>
+        <mxCell id="44zLfyNR7d4W-rkkh0yA-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Medico" vertex="1">
+          <mxGeometry height="290" width="300" x="-80" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="44zLfyNR7d4W-rkkh0yA-2" parent="44zLfyNR7d4W-rkkh0yA-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- especialidad:string&lt;div&gt;- guardias:int&lt;/div&gt;&lt;div&gt;- pagoPorGuardias:double&lt;/div&gt;" vertex="1">
+          <mxGeometry height="54" width="300" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="44zLfyNR7d4W-rkkh0yA-3" parent="44zLfyNR7d4W-rkkh0yA-1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;labelPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="8" width="300" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="44zLfyNR7d4W-rkkh0yA-4" parent="44zLfyNR7d4W-rkkh0yA-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ Medico()&lt;div&gt;+ Medico(string especialidad, int guardias, double pagoPorGuardias&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ ~Medico()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ void setEspecialidad(string especialidad)&lt;/div&gt;&lt;div&gt;+ void setGuardias(int guardias)&lt;/div&gt;&lt;div&gt;+ void setPagoPorGuardias(double pagoPorGuardias&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ string getEspecialida()&lt;/div&gt;&lt;div&gt;+ int getGuardias()&lt;/div&gt;&lt;div&gt;+ double getPagoPorGuardias&lt;/div&gt;&lt;div&gt;+string toString override&lt;/div&gt;" vertex="1">
+          <mxGeometry height="202" width="300" y="88" as="geometry" />
+        </mxCell>
+        <mxCell id="44zLfyNR7d4W-rkkh0yA-8" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Enfermero" vertex="1">
+          <mxGeometry height="332" width="300" x="-190" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="44zLfyNR7d4W-rkkh0yA-9" parent="44zLfyNR7d4W-rkkh0yA-8" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- departamento:string&lt;div&gt;- turno:int&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="74" width="300" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="44zLfyNR7d4W-rkkh0yA-10" parent="44zLfyNR7d4W-rkkh0yA-8" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;labelPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="30" width="300" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="44zLfyNR7d4W-rkkh0yA-11" parent="44zLfyNR7d4W-rkkh0yA-8" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ Enfermero()&lt;div&gt;+ Enfermerp(string departamento, string turno&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ ~Medico()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ void setEspecialidad(string especialidad)&lt;/div&gt;&lt;div&gt;+ void setGuardias(int guardias)&lt;/div&gt;&lt;div&gt;+ void setPagoPorGuardias(double pagoPorGuardias&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ string getEspecialida()&lt;/div&gt;&lt;div&gt;+ int getGuardias()&lt;/div&gt;&lt;div&gt;+ double getPagoPorGuardias&lt;/div&gt;&lt;div&gt;+string toString override&lt;/div&gt;" vertex="1">
+          <mxGeometry height="202" width="300" y="130" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
